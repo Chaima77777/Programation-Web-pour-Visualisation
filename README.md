@@ -9,5 +9,5 @@ Site web portfolio présentant mes compétences (BUT Science des données) à de
 ## Ce qu'on va voir principalement
 - Page d'accueil
 - Présentation du BUT SD et des compétences
-- Les projets
+- Les différents projets
 - Informations à propos de moi
