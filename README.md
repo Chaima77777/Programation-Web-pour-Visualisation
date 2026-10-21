@@ -19,10 +19,15 @@ Le site doit permettre à un recruteur ou à un responsable de formation de comp
 ## Fonctionnalités
 
 Navigation : Menu présent sur toutes les pages (Accueil, Projets, À propos de moi) et lien de retour vers l'accueil
+
 Présentation du BUT SD et des compétences : Description du BUT et des 4 compétences, avec un graphique du nombre d'heures par compétence
+
 Pages BUT1 / BUT2 / BUT3 : Résumé de chaque année et liens vers les fiches des enseignements
+
 Projets : Liste des SAÉ et des projets, avec une page de détail pour chacun
+
 A propos de moi : Parcours : brevet, bac (spécialités, options), expériences professionnelles
+
 Contact : Moyen de me contacter depuis la page d'accueil
 
 Connexion (envisagée) : Page de connexion donnant accès à un espace réservé. À confirmer selon l'avancement
