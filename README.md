@@ -24,6 +24,8 @@ Présentation du BUT SD et des compétences : Description du BUT et des 4 compé
 
 Pages BUT1 / BUT2 / BUT3 : Résumé de chaque année et liens vers les fiches des enseignements
 
+Stage : Présentation du stage réalisé en BUT2
+
 Projets : Liste des SAÉ et des projets, avec une page de détail pour chacun
 
 A propos de moi : Parcours : brevet, bac (spécialités, options), expériences professionnelles
