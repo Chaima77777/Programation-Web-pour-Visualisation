@@ -52,9 +52,44 @@ Les modifications importantes apportées à la maquette seront notées ici, avec
 
 ## III. Base de données
 ## Données utilisées
-(Choix en cours)
 
 Les données sont celles de mon propre parcours : mes projets, mes expériences, mes compétences et les heures de formation par compétence. Elles sont saisies par mes soins dans la base de données.
+
+Compétences et formation
+- Liste des compétences (nom, catégorie)
+- Nombre d'heures par compétence et par année de BUT
+- Moyenne des notes par compétence
+- Liste des enseignements (nom, année de BUT, nombre d'heures)
+- Compétences associées à chaque enseignement
+- Liens vers les fiches des enseignements
+- Liens vers les documents de présentation du BUT
+Outils et technologies
+- Liste des outils et technologies maîtrisés
+Projets et SAÉ
+- Liste des projets et des SAÉ (titre, description, année, type)
+- Compétences mobilisées par chaque projet ou SAÉ
+- Enseignements associés à chaque projet ou SAÉ
+- Technologies utilisées dans chaque projet
+- Extraits de chaque projet (captures, aperçus)
+- Livrables de chaque projet (rapport, code, présentation...)
+Parcours et expériences
+- Brevet
+- Baccalauréat (spécialités, options)
+- Certification Cambridge
+- SNU
+- Expériences professionnelles (poste, organisme, dates, description)
+Stage
+- Missions réalisées
+- Compétences mobilisées
+- Technologies utilisées
+- Rapport de stage
+Profil
+- Soft skills
+- Centres d'intérêt
+Contact
+- CV
+- Lien LinkedIn
+- Lien GitHub
 
 ## Schéma relationnel
 (Choix en cours)
