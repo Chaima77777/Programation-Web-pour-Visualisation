@@ -63,8 +63,10 @@ Compétences et formation
 - Compétences associées à chaque enseignement
 - Liens vers les fiches des enseignements
 - Liens vers les documents de présentation du BUT
+  
 Outils et technologies
 - Liste des outils et technologies maîtrisés
+
 Projets et SAÉ
 - Liste des projets et des SAÉ (titre, description, année, type)
 - Compétences mobilisées par chaque projet ou SAÉ
@@ -72,20 +74,24 @@ Projets et SAÉ
 - Technologies utilisées dans chaque projet
 - Extraits de chaque projet (captures, aperçus)
 - Livrables de chaque projet (rapport, code, présentation...)
+
 Parcours et expériences
 - Brevet
 - Baccalauréat (spécialités, options)
 - Certification Cambridge
 - SNU
 - Expériences professionnelles (poste, organisme, dates, description)
+
 Stage
 - Missions réalisées
 - Compétences mobilisées
 - Technologies utilisées
 - Rapport de stage
+
 Profil
 - Soft skills
 - Centres d'intérêt
+
 Contact
 - CV
 - Lien LinkedIn
