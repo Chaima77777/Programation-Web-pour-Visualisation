@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS COMPETENCE_PREUVE CASCADE;
 DROP TABLE IF EXISTS PREUVES CASCADE;
 DROP TABLE IF EXISTS SAE CASCADE;
 DROP TABLE IF EXISTS PROJET CASCADE;
-DROP TABLE IF EXISTS LANGUAGES_PROG CASCADE;
+DROP TABLE IF EXISTS TECHNOLOGIE CASCADE;
 DROP TABLE IF EXISTS CONTACT CASCADE;
 -- puis tes DROP existants (ACTIVITE_PEDAGOGIQUE, APPRENTISSAGE_CRITIQUE, COMPETENCE, ANNEE)
 -- ============================================================
@@ -452,7 +452,7 @@ ON CONFLICT DO NOTHING;
 CREATE TABLE IF NOT EXISTS PREUVES (
     id_preuve VARCHAR(10) PRIMARY KEY,   -- ex: P1, P2, P3
     intitule TEXT NOT NULL,
-    document TEXT                        -- nom ou chemin du fichier
+    document TEXT    -- nom du fichier
 );
 
 INSERT INTO PREUVES (id_preuve, intitule, document) VALUES
@@ -500,3 +500,24 @@ INSERT INTO PREUVE_AC (id_preuve, id_ac) VALUES
 ('P3', 'AC33.04'),
 ('P4', 'AC13.05')
 ON CONFLICT DO NOTHING;
+
+-- ============================================================
+-- TABLE DES SAES
+-- ============================================================
+CREATE TABLE IF NOT EXISTS SAE (
+    id_sae CHAR(7) PRIMARY KEY,  -- ex: SAE4.01, SAE2.02, SAE3.01
+    intitule TEXT NOT NULL,
+    id_annee CHAR(4),
+    description TEXT NOT NULL,
+    id_tech CHAR (12),
+    id_competence CHAR (2),
+    id_preuve VARCHAR(10),
+    
+);
+
+INSERT INTO ANNEE (id_annee, intitule) VALUES
+('BUT1', 'Traiter des données structurées / Mettre en œuvre une analyse descriptive / Contextualiser et présenter les données'),
+('BUT2', 'Automatiser le traitement de données multidimensionnelles / Mettre en œuvre une analyse exploratoire / Restituer et argumenter ses résultats / Développer un composant d’une solution décisionnelle'),
+('BUT3', 'Intégrer le traitement de données complexes / Mettre en œuvre l''analyse exploratoire de données complexes / Intégrer et valoriser sa production dans l''écosystème de l''entreprise / Participer au déploiement d''une solution décisionnelle')
+ON CONFLICT DO NOTHING;
+
